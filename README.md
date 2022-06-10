@@ -18,9 +18,9 @@
 #### How to get started?
 - Start by git cloning this project.
 - Python 3.7 or above is required and flask, flask-sqlalchemy, and flask-login must be installed through pip or conda.
-- You have to run the following command:
-  `export FLASK_APP=main.py`
-  `flask run --host=0.0.0.0`
+- You have to run the following command:<br />
+  `export FLASK_APP=main.py`<br />
+  `flask run --host=0.0.0.0`<br />
 - After that, an http link to the web app is displayed.
 - Note: you can only enter the web app if you are connected to the same wifi.
 
