@@ -31,10 +31,10 @@
 ### Presentation (YouTube) link
 - 
 
-#### Github repository link of backbone code (techwithtim)
+### Github repository link of backbone code (techwithtim)
 - https://github.com/techwithtim/Flask-Web-App-Tutorial
 
-#### Contribution
+### Contribution
 - Created an input page where users can input the date of entry, sleep start time, sleep end time, weight, whether they exercised, and whether they ate breakfast, lunch and dinner.
 - Created an output page where users can see their lifestyle through charts and raw data
   - Charts include a line graph of sleep duration over days, a line graph of weight over days, a pie chart of days exercised and skipped exercise, a pie chart of days ate breakfast and skipped breakfast, a pie chart of days ate lunch and skipped lunch, and a pie chart of days ate dinner and skipped dinner.
