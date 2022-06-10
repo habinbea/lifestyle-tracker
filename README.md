@@ -1,7 +1,7 @@
 # Lifestyle Tracker
 
 ### What does this project do?
-- Lifestyle Tracker is a web application that keeps track of your lifestyle daily, so that you will understand more about your lifestyle and then act to achieve your goals.
+- Lifestyle Tracker is a flask web application that keeps track of your lifestyle daily, so that you will understand more about your lifestyle and then act to achieve your goals.
 - Lifestyle Tracker keeps track of your sleep time, weight, and whether you exercised and ate your meals.
 - You can track your data through ine charts showing how long you've slept and your weight over days, as well as pie charts showing how many days you've exercised, ate breakfast, lunch and dinner.
 - Each chart has a title showing more information such as average sleep duration, average weight, and fraction of days you've exercised, ate breakfast, lunch and dinner.
@@ -41,3 +41,4 @@
   - The title of the charts also show the average sleep duration, average weight, the number of days exercised, ate breakfast, lucnh and dinner out of total number of days
   - The raw data shows the raw data in the database whose columns are: date, sleep start, sleep end, sleep duration, weight, exercise, breakfast, lunch, and dinner.
   - From the raw data, users can click the "x" button on the right side of an entry to delete it in the database. When this is done, the charts and data are updated immediately.
+- Edited the backend of the web app to handle users' lifestyle data in sqlite.
