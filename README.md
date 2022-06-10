@@ -1,13 +1,13 @@
 # Lifestyle Tracker
 
-#### What does this project do?
+### What does this project do?
 - Lifestyle Tracker is a web application that keeps track of your lifestyle daily, so that you will understand more about your lifestyle and then act to achieve your goals.
 - Lifestyle Tracker keeps track of your sleep time, weight, and whether you exercised and ate your meals.
 - You can track your data through ine charts showing how long you've slept and your weight over days, as well as pie charts showing how many days you've exercised, ate breakfast, lunch and dinner.
 - Each chart has a title showing more information such as average sleep duration, average weight, and fraction of days you've exercised, ate breakfast, lunch and dinner.
 - It is an open-source project, so you may edit your inputs and outputs to create a personalized application.
 
-#### Why is this project useful?
+### Why is this project useful?
 - Lifestyle Tracker is useful because it is free and open-source!
 - There are many health trackers available.
 - Some require you to manually input your health data everyday, but these inputs may not be what you want to keep track of!
@@ -15,7 +15,7 @@
 - With this free, open-source project, you can create a custom web application for free!
 - Of course, you have to manually input data everyday, but by doing this, you can actually become more conscious about your lifestyle!
 
-#### How to get started?
+### How to get started?
 - Start by git cloning this project.
 - Python 3.7 or above is required and flask, flask-sqlalchemy, and flask-login must be installed through pip or conda.
 - You have to run the following command:<br />
@@ -24,11 +24,11 @@
 - After that, an http link to the web app is displayed.
 - Note: you can only enter the web app if you are connected to the same wifi.
 
-#### Where can people get more help if needed?
+### Where can people get more help if needed?
 - For help, you may send an email to habinbea@handong.ac.kr.
 - If there are any problems, please write them in the issues board.
 
-#### Presentation (YouTube) link
+### Presentation (YouTube) link
 - 
 
 #### Github repository link of backbone code (techwithtim)
