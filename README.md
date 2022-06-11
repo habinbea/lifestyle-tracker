@@ -21,7 +21,7 @@
 - You have to run the following command:<br />
   `export FLASK_APP=main.py`<br />
   `flask run --host=0.0.0.0`<br />
-- After that, an http link to the web app is displayed.
+- After that, enter `http://<IP address of your raspberry pi>:5000` in your browser to visit the site!
 - Note: you can only enter the web app if you are connected to the same wifi.
 
 ### Where can people get more help if needed?
