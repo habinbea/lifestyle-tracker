@@ -75,12 +75,20 @@ def output():
         total_breakfast += info.breakfast
         total_lunch += info.lunch
         total_dinner += info.dinner
-    mean_sleep_duration = sum_sleep_duration/len(current_user.info)
-    mean_weight = sum_weight/len(current_user.info)
-    total_skip_exercise = len(current_user.info) - total_exercise
-    total_skip_breakfast = len(current_user.info) - total_breakfast
-    total_skip_lunch = len(current_user.info) - total_lunch
-    total_skip_dinner = len(current_user.info) - total_dinner
+    if len(current_user.info) > 0:
+        mean_sleep_duration = sum_sleep_duration/len(current_user.info)
+        mean_weight = sum_weight/len(current_user.info)
+        total_skip_exercise = len(current_user.info) - total_exercise
+        total_skip_breakfast = len(current_user.info) - total_breakfast
+        total_skip_lunch = len(current_user.info) - total_lunch
+        total_skip_dinner = len(current_user.info) - total_dinner
+    else:
+        mean_sleep_duration = 0
+        mean_weight = 0
+        total_skip_exercise = 0
+        total_skip_breakfast = 0
+        total_skip_lunch = 0
+        total_skip_dinner = 0
 
     oldest_info = Info.query.filter_by(user_id=current_user.id).order_by('date').first()
 
