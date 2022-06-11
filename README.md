@@ -29,7 +29,7 @@
 - If there are any problems, please write them in the issues board.
 
 ### Presentation (YouTube) link
-- 
+- https://www.youtube.com/watch?v=_JHpvmcP22M
 
 ### Github repository link of backbone code (techwithtim)
 - https://github.com/techwithtim/Flask-Web-App-Tutorial
